@@ -6,6 +6,38 @@
 
 <p align="center">Mazca is a clothing website</p>
 
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
+
 <h1 align="center">🤝 Colaborators</h1>
 
 <p align="center">We thank the following people that contributed to this project:</p>

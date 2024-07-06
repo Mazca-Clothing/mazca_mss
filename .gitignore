@@ -224,3 +224,29 @@ nb-configuration.xml
 ## OS X
 ##############################
 .DS_Store
+
+
+# compiled output
+/dist
+/node_modules
+/build
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.c9/
+*.launch
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# temp directory
+.tmp
