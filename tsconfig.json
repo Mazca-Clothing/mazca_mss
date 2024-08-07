@@ -17,5 +17,14 @@
         "strictBindCallApply": false,
         "forceConsistentCasingInFileNames": false,
         "noFallthroughCasesInSwitch": false
+    },
+    "baseUrl": "./src",
+    "paths": {
+        "@modules/*": ["modules/*"],
+        "@enums/*": ["shared/domain/enums/*"],
+        "@entities/*": ["shared/entities/*"],
+        "@repo/*": ["shared/repositories/*"],
+        "@helpers/*": ["shared/helpers/*"],
+        "@infra/*": ["shared/infra"]
     }
 }
