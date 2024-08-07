@@ -9,7 +9,6 @@ class OK extends HttpResponse {
 }
 
 class Created extends HttpResponse {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     constructor(body: any = null) {
         super(HttpStatusCodeEnum.CREATED, body);
     }
